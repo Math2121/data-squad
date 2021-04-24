@@ -1,0 +1,16 @@
+@keyframes plus{
+        0%{
+            transform:rotateX(0deg)
+        }
+        100%{
+            transform:rotate(360deg)
+        }
+}
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(146, 167, 88, 0.56);
+	}
+	80% {
+		box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+	}
+}

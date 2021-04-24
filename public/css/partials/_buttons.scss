@@ -1,0 +1,85 @@
+.btn-header {
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: $grad1;
+    box-shadow: $shadow1;
+    color: white;
+    font-weight: bold;
+    font-family: Mukta;
+    font-size: 24px;
+    display: block;
+    margin-top: 35px;
+    transition: all .5s ease;
+
+    &:hover {
+        color: white;
+        transform: scale(0.8)
+    }
+}
+
+.btn-normal {
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+
+    background: $grad1;
+    box-shadow: $shadow1;
+    color: white;
+    font-weight: bold;
+    font-family: Mukta;
+    font-size: 24px;
+
+    margin-top: 50px;
+    transition: all .5s ease;
+
+    &:hover {
+        color: white;
+        transform: scale(0.8)
+    }
+}
+
+.btn-price {
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+
+    background: $grad1;
+    box-shadow: 0px 31px 39px rgba(254, 205, 58, 0.14), 0px 9.34559px 11.7574px rgba(254, 205, 58, 0.0912224), 0px 3.88168px 4.88341px rgba(254, 205, 58, 0.07), 0px 1.40393px 1.76623px rgba(254, 205, 58, 0.0487776);
+    color: white;
+    font-weight: bold;
+    font-family: Mukta;
+    font-size: 24px;
+
+    margin-top: 30px;
+    transition: all .5s ease;
+
+    &:hover {
+        color: white;
+        transform: scale(0.8)
+    }
+    @include responsive(s){
+        width: 12rem;
+    }
+}
+
+.btn-finale {
+    width: 290px;
+    height: 50px;
+    border-radius: 5px;
+    background: $grad1;
+    box-shadow: 0px 31px 39px rgba(254, 205, 58, 0.14), 0px 9.34559px 11.7574px rgba(254, 205, 58, 0.0912224), 0px 3.88168px 4.88341px rgba(254, 205, 58, 0.07), 0px 1.40393px 1.76623px rgba(254, 205, 58, 0.0487776);
+    color: white;
+    font-weight: bold;
+    font-family: Mukta;
+    font-size: 24px;
+
+    margin-top: 30px;
+    transition: all .5s ease;
+
+    &:hover {
+        color: white;
+        transform: scale(0.8)
+    }
+}
