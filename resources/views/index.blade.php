@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&family=Ubuntu:ital,wght@0,400;0,500;1,400;1,500&display=swap"
         rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -161,14 +162,16 @@
                     <h3>Conteúdo Programático</h3>
                     <span class="line"></span>
                 </div>
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="{{ asset('img/bi.png') }}" alt="">
 
                     <h4>Mercado de BI
                     </h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="{{ asset('img/data.png') }}" alt="">
 
                     <h4>Introdução a Dados
@@ -177,7 +180,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="{{ asset('img/qlick.png') }}" alt="">
 
                     <h4>O que é Qlik Sense?
@@ -185,7 +189,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="3000">
                     <img src="{{ asset('img/desktop.png') }}" alt="">
 
                     <h4>Conhecendo o Qlik Sense Desktop
@@ -196,7 +201,8 @@
 
             <div class="row mt-5">
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img src="{{ asset('img/file.png') }}" alt="">
 
                     <h4>Importando o primeiro
@@ -205,7 +211,8 @@
                     </h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="2000" >
                     <img src="{{ asset('img/metrics.png') }}" alt="">
 
                     <h4>Criando métricas
@@ -214,7 +221,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img src="{{ asset('img/grafics.png') }}" alt="">
 
                     <h4>Criando Gráficos
@@ -222,7 +230,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="2000">
                     <img src="{{ asset('img/itens.png') }}" alt="">
 
                     <h4>Itens Mestres
@@ -234,7 +243,8 @@
 
             <div class="row mt-5">
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img src="{{ asset('img/modelagem.png') }}" alt="">
 
                     <h4>Modelagem Básica
@@ -242,7 +252,8 @@
                     </h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img src="{{ asset('img/story.png') }}" alt="">
 
                     <h4>Data Storytelling
@@ -251,7 +262,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img src="{{ asset('img/script.png') }}" alt="">
 
                     <h4>Script Básico
@@ -259,7 +271,8 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id sed sed sed ut congue facilisi pellentesque. Vitae nibh leo nulla suspendisse. Scelerisque </p>
                 </div>
 
-                <div class="col-md-3 item-content">
+                <div class="col-md-3 item-content" data-aos="fade-up"
+                data-aos-duration="1000">
                     <img src="{{ asset('img/project.png') }}" alt="">
 
                     <h4>Projeto Completo
@@ -379,6 +392,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
         integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
