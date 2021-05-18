@@ -51,39 +51,55 @@
 
     <section class="about">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row ">
                 <div class="col-md-6 about-item">
                     <div class="intro-text">
                         <h3>Quem Somos</h3>
                         <span class="line"></span>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et id velit, consequat fringilla. Massa,
-                        massa adipiscing praesent mauris. Maecenas in est lectus nisi nunc, cum.</p>
+                    <p>Meu nome é Rodolfo Barbosa, sou fundador do Data Squad, idealizador do BI Canvas,
+                        já palestrei em grandes eventos de tecnologia e atuei em mais de 40 projetos de
+                        Business Intelligence e Analytcs. Atualmente possuo mais de 8000 seguidores no
+                        Linkedin, onde produzo conteúdo com frequência sobre dados analytics e Qlik.<br><br> Tenho
+                        mais de 800 inscritos em meu canal do YouTube, considerado um dos maiores no nicho
+                        tecnológico de dados.<br><br>
+                        Já treinei mais de 100 profissionais presencialmente e mais de 500 profissionais no
+                        ambiente online.
+                        Além disso, contribui com a criação de comunidades de análise de dados,
+                        empreendedorismo, produção de conteúdo, entre outros.
+
+
+                        </p>
                     <div class="benefics">
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>CURSO COMPLETO COM AULAS GRAVADAS
+                            </p>
                         </div>
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>SUPORTE PERSONALIZADO</p>
                         </div>
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>PROVADO POR MAIS DE 100 ALUNOS
+                            </p>
                         </div>
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>CERTIFICADO
+                            </p>
                         </div>
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>RECONHECIMENTO DO MERCADO
+                            </p>
                         </div>
                         <div class="item-benefics">
                             <img src="{{ asset('img/check.png') }}" alt="">
-                            <p>Treinamento de Qlik Sense em grupo</p>
+                            <p>NETWORKING
+                            </p>
                         </div>
                     </div>
 
@@ -113,8 +129,8 @@
                         <span class="line"></span>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum purus ac nec urna vitae
-                        dictum</p>
+                    <p>DURANTE A PANDEMIA ESTAMOS COM 50% DE DESCONTO.FAÇA COMO
+                        DEZENAS DE ALUNOS E SEJA UM PROFISSIONAL DESEJADO PELO MERCADO.</p>
 
                     <div class="item-sales">
                         <div class="sales">
@@ -336,8 +352,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 item-finale text-center">
-<h3>Pronto para começarmos um projeto juntos?</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis neque, sodales justo, amet dictumst id amet, sagittis purus. .</p>
+<h3>GANHE UM CERTIFICADO INCRÍVEL PARA FECHAR MUITOS CONTRATOS!</h3>
+<p>Pare de perder tempo, domine o assunto mais requisitado pelas empresas de todo
+    mundo!.</p>
 
 <button class="btn btn-finale">
     INSCREVA-SE
